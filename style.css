@@ -1,0 +1,40 @@
+body {
+background-color:none;
+}
+.photo{
+	padding-top:50px;
+	text-align:center;
+	
+	}
+.hr{
+	padding-left:50px;
+	padding-right: 50px;
+	margin:20px;
+}
+.list{
+	padding-left: 100px;
+	font-size: 22px;
+	
+}
+.list1{
+	padding-left: 100px;
+	font-size: 22px;
+	padding-bottom: 100px;
+}
+.status{
+	padding-top:7px;
+	font-size: 22px;
+}
+
+li{
+	margin:10px;
+}
+p{
+	padding-top:10px ;
+	margin:8px;
+}
+a{
+
+	margin:1px;
+
+}
