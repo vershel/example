@@ -1,0 +1,135 @@
+body {
+  font: 1em sans-serif;
+}
+
+.wrap {
+  width: 966px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 46px;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  -ms-box-shadow: 0 5px 3px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.menu {
+  width: 966px;
+  height: 40px;
+  margin-bottom: 50px;
+  background-image: url('../img/panel.png');
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 145px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+
+.menu li a:hover {
+  width: 143px;
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
+  color: #fff;
+}
+
+.content {
+  display: inline-block;
+  width: 676px;
+  margin-left: 48px;
+}
+
+.left-menu {
+  display: inline-block;
+  position: relative;
+  width: 238px;
+  float: left;
+  border: 1px solid #838383;
+  border-bottom: 1px solid transparent;
+}
+
+
+.left-menu li a {
+  display: block;
+  width: 238px;
+  height: 39px;
+  border-bottom: 1px solid #838383;
+  color: #656363;
+  line-height: 39px;
+  text-align: center;
+}
+
+.left-menu li:hover {
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 50px;
+  border: 1px solid #838383;
+  line-height: 400px;
+  text-align: center;
+}
+
+.img img {
+  vertical-align: middle;
+}
+
+.text {
+  width: 668px;
+  font-size: 13px;
+}
+
+footer {
+  width: 966px;
+  height: 41px;
+  margin: 100px 0;
+  background-color: #e1e1e1;
+  color: #fff;
+  font-size: 13px;
+}
+
+footer ul {
+  width: 800px;
+  float: left;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li a {
+  display: inline-block;
+  width: 150px;
+  height: 41px;
+  color: #2c2c2c;
+  line-height: 41px;
+  text-align: center;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  display: inline;
+}
+
+.some-text {
+  display: inline-block;
+  width: 165px;
+  color: #2c2c2c;
+  line-height: 41px;
+}
